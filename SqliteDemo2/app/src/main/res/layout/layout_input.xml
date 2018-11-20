@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <EditText
+        android:id="@+id/editTextCountryName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Country Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextCapital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Capital"
+        android:inputType="text" />
+
+
+
+    <EditText
+        android:id="@+id/editTextPopulation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="Population"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/buttonShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/buttonSave"
+
+        android:layout_gravity="center"
+        android:text="Show Country" />
+</LinearLayout>
